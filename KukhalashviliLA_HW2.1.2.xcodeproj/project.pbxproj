@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		8496C77E2535EB3A00D26EEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496C77D2535EB3A00D26EEA /* AppDelegate.swift */; };
 		8496C7802535EB3A00D26EEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496C77F2535EB3A00D26EEA /* SceneDelegate.swift */; };
-		8496C7822535EB3A00D26EEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496C7812535EB3A00D26EEA /* ViewController.swift */; };
 		8496C7852535EB3A00D26EEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8496C7832535EB3A00D26EEA /* Main.storyboard */; };
 		8496C7872535EB3A00D26EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8496C7862535EB3A00D26EEA /* Assets.xcassets */; };
 		8496C78A2535EB3A00D26EEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8496C7882535EB3A00D26EEA /* LaunchScreen.storyboard */; };
+		8496C7952535ED2400D26EEA /* TrafficLightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496C7942535ED2400D26EEA /* TrafficLightViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8496C77A2535EB3A00D26EEA /* KukhalashviliLA_HW2.1.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KukhalashviliLA_HW2.1.2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8496C77D2535EB3A00D26EEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8496C77F2535EB3A00D26EEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8496C7812535EB3A00D26EEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8496C7842535EB3A00D26EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8496C7862535EB3A00D26EEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8496C7892535EB3A00D26EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8496C78B2535EB3A00D26EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8496C7942535ED2400D26EEA /* TrafficLightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			children = (
 				8496C77D2535EB3A00D26EEA /* AppDelegate.swift */,
 				8496C77F2535EB3A00D26EEA /* SceneDelegate.swift */,
-				8496C7812535EB3A00D26EEA /* ViewController.swift */,
+				8496C7942535ED2400D26EEA /* TrafficLightViewController.swift */,
 				8496C7832535EB3A00D26EEA /* Main.storyboard */,
 				8496C7862535EB3A00D26EEA /* Assets.xcassets */,
 				8496C7882535EB3A00D26EEA /* LaunchScreen.storyboard */,
@@ -137,8 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8496C7822535EB3A00D26EEA /* ViewController.swift in Sources */,
 				8496C77E2535EB3A00D26EEA /* AppDelegate.swift in Sources */,
+				8496C7952535ED2400D26EEA /* TrafficLightViewController.swift in Sources */,
 				8496C7802535EB3A00D26EEA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4G7H3D7APM;
 				INFOPLIST_FILE = KukhalashviliLA_HW2.1.2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.kukhalashviliLA.KukhalashviliLA-HW2-1-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4G7H3D7APM;
 				INFOPLIST_FILE = KukhalashviliLA_HW2.1.2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.kukhalashviliLA.KukhalashviliLA-HW2-1-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
